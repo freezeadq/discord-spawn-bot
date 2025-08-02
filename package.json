@@ -1,0 +1,23 @@
+{
+  "name": "discord-spawn-bot",
+  "version": "1.0.0",
+  "description": "Bot de Discord con comando /spawn para pinguear usuarios",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js"
+  },
+  "keywords": ["discord", "bot", "spawn", "ping"],
+  "author": "Tu nombre",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  }
+}
